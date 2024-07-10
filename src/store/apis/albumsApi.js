@@ -13,6 +13,7 @@ const albumsApi = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: 'http://localhost:3005',
     fetchFn: async(...args) => {
+      // REMOVE FOR PRODUCTION
       await pause(1000);
       return fetch(...args);
     }
