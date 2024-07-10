@@ -7,18 +7,9 @@
     {
       "id": "d516",
       "name": "Bridget Lindgren"
-    },
-    {
-      "id": "0768",
-      "name": "Wendell Dickens"
     }
   ],
   "albums": [
-    {
-      "id": "b470",
-      "title": "Rustic Fresh Computer",
-      "userId": "1"
-    },
     {
       "id": "c76b",
       "title": "Gorgeous Metal Pizza",
@@ -37,6 +28,16 @@
     {
       "id": "985c",
       "title": "Gorgeous Steel Table",
+      "userId": "1"
+    },
+    {
+      "id": "9d65",
+      "title": "Rustic Bronze Shoes",
+      "userId": "1"
+    },
+    {
+      "id": "c25d",
+      "title": "Incredible Rubber Pizza",
       "userId": "1"
     }
   ],
