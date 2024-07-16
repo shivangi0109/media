@@ -45,5 +45,11 @@
       "userId": "1"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "b816",
+      "albumId": "c76b",
+      "url": "https://picsum.photos/seed/lZLauG9Oo/150/150"
+    }
+  ]
 }
