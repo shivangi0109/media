@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Overview
+This project is designed to demonstrate making network requests and fetching data in a Redux environment. The application showcases user management, including creating, deleting, and expanding user details to show associated albums and photos. Data is fetched lazily to optimize performance for users on constrained internet connections.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Final Product
 
-## Available Scripts
+**Homepage:**
 
-In the project directory, you can run:
+!["View of homepage"]()
 
-### `npm start`
+**Adding New User:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+!["View of adding new user"]()
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Adding New Album Under Specific User:**
 
-### `npm test`
+!["View of adding new album under specific user"]()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Adding New Photo Under Specific Album and User:**
 
-### `npm run build`
+!["View of adding new photo under specific album and user"]()
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+* Fetch and display a list of users using Redux Thunks
+* Add, delete, and manage users
+* Expand user details to show albums and photos
+* Lazy loading for efficient data fetching
+* Implemented with Redux Toolkit and Redux Toolkit Query
+* Enhanced data loading experience with loading spinners
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
+* **Frontend:** React, Redux Thunks, Redux Toolkit, Redux Toolkit Query, Faker, Classnames, Axios
+* **Backend:** JSON Server for mock API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+### Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+git clone <repository-url>
+cd <repository-folder>
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Start the JSON Server:
 
-## Learn More
+```
+npx json-server --watch db.json --port 3001
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Run the application:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm start
+```
 
-### Code Splitting
+### Open your browser and navigate to 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+http://localhost:3000
+```
 
-### Analyzing the Bundle Size
+## Usage
+* On loading the application, a list of users will be fetched and displayed.
+* Add new users with the "Add User" button.
+* Delete users with the "Delete" button next to each user.
+* Expand user details to manage albums and photos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Development
+1. Fetch list of users using Redux Thunks.
+2. Fetch albums and photos using Redux Toolkit Query.
+3. Ensure efficient data loading with clear user feedback.
