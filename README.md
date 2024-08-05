@@ -5,31 +5,31 @@ This project is designed to demonstrate making network requests and fetching dat
 
 **Homepage:**
 
-!["View of homepage"]()
+!["View of homepage"](public/docs/screenshots/homepage.png)
 
 **Loading Users:**
 
-!["View of loading users"]()
+!["View of loading users"](public/docs/screenshots/loading-users.png)
 
 **Adding New User:**
 
-!["View of adding new user"]()
+!["View of adding new user"](public/docs/screenshots/add-new-user.png)
 
 **Fetching Albums Under Specific User:**
 
-!["View of fetching albums under specific user"]()
+!["View of fetching albums under specific user"](public/docs/screenshots/fetching-albums-under-specific-user.png)
 
 **Adding New Album Under Specific User:**
 
-!["View of adding new album under specific user"]()
+!["View of adding new album under specific user"](public/docs/screenshots/add-new-album-under-specific user.png)
 
 **Fetching Photos Under Specific Album and User:**
 
-!["View of fetching photos under specific album and user"]()
+!["View of fetching photos under specific album and user"](public/docs/screenshots/fetching-photos-under-specific-album-and-user.png)
 
 **Adding New Photo Under Specific Album and User:**
 
-!["View of adding new photo under specific album and user"]()
+!["View of adding new photo under specific album and user"](public/docs/screenshots/add-new-photo-under-specific-album-and-user.png)
 
 ## Features
 * Fetch and display a list of users using Redux Thunks
