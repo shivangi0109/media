@@ -7,13 +7,25 @@ This project is designed to demonstrate making network requests and fetching dat
 
 !["View of homepage"]()
 
+**Loading Users:**
+
+!["View of loading users"]()
+
 **Adding New User:**
 
 !["View of adding new user"]()
 
+**Fetching Albums Under Specific User:**
+
+!["View of fetching albums under specific user"]()
+
 **Adding New Album Under Specific User:**
 
 !["View of adding new album under specific user"]()
+
+**Fetching Photos Under Specific Album and User:**
+
+!["View of fetching photos under specific album and user"]()
 
 **Adding New Photo Under Specific Album and User:**
 

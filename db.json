@@ -11,6 +11,18 @@
     {
       "id": "f817",
       "name": "Gloria Streich"
+    },
+    {
+      "id": "b0a2",
+      "name": "Clarence Leuschke"
+    },
+    {
+      "id": "22fd",
+      "name": "Walter Kunze"
+    },
+    {
+      "id": "d9de",
+      "name": "Sidney Corkery"
     }
   ],
   "albums": [
@@ -43,6 +55,11 @@
       "id": "c25d",
       "title": "Incredible Rubber Pizza",
       "userId": "1"
+    },
+    {
+      "id": "fbdb",
+      "title": "Electronic Plastic Computer",
+      "userId": "1"
     }
   ],
   "photos": [
@@ -60,6 +77,21 @@
       "id": "f974",
       "albumId": "c76b",
       "url": "https://picsum.photos/seed/LC9GW/150/150"
+    },
+    {
+      "id": "4b70",
+      "albumId": "c76b",
+      "url": "https://picsum.photos/seed/YxsJrHcE/150/150"
+    },
+    {
+      "id": "7ac9",
+      "albumId": "c76b",
+      "url": "https://picsum.photos/seed/DIV12xrX/150/150"
+    },
+    {
+      "id": "5855",
+      "albumId": "c76b",
+      "url": "https://picsum.photos/seed/3x1NTtYG/150/150"
     }
   ]
 }
